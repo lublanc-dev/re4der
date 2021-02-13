@@ -1,12 +1,12 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyCn5Sal_qU060xlGyJjkZY31dNZQEnAY-0",
-    authDomain: "l4ter-testing.firebaseapp.com",
-    projectId: "l4ter-testing",
-    storageBucket: "l4ter-testing.appspot.com",
-    messagingSenderId: "597437806224",
-    appId: "1:597437806224:web:2477b60d95389df292ca15",
-    measurementId: "G-Q4T4D487DK"
+    apiKey: "AIXXXXXXXXXXXXXXXXXXX-0",
+    authDomain: "XXXXXXX.firebaseapp.com",
+    projectId: "XXXXXXXX",
+    storageBucket: "XXXXXXX.appspot.com",
+    messagingSenderId: "XXXXXXXXXXX",
+    appId: "1:5XXXXXX24:web:24XXXXXXXXXXXca15",
+    measurementId: "X-XXXXXXK"
 };
 
 firebase.initializeApp(firebaseConfig);
