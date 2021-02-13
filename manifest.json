@@ -1,0 +1,24 @@
+{
+  "name" : "RE4DER",
+  "version" : "0.1",
+  "description" : "Read data from a specific document in Firebase.",
+  "permissions": [ "tabs", "storage", "activeTab", "background"],
+  "browser_action": {
+     "default_icon": "logo_re4der.png",
+     "default_popup": "popread.html",
+     "default_title": "Welcome to RE4DER"
+  },
+  "background": {
+    "page": "popread.html",
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["popread.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'"
+}
